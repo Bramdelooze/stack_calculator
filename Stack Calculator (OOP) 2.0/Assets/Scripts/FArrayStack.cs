@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,7 +11,7 @@ public class FArrayStack : fStack {
     void Start ()
     {
         stackElements = new float[10];
-	}
+    }
 
     override public void Push(float number)
     {
